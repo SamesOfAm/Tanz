@@ -2,6 +2,11 @@
 
 .mobile_menu .inner {
   background: $brightest_teal;
+
+  .sibling:nth-child(8), .sibling:nth-child(9){
+    display: none;
+  }
+
 }
 
 .menu-content {

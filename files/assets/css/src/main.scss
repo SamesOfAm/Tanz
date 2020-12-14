@@ -308,6 +308,7 @@ main .mod_article > .hours {
   margin: 0 auto;
   .widget {
     margin: 10px 0;
+    font-family: "Manuale", serif;
     label {
       display: inline-block;
       font-weight: bold;
@@ -325,6 +326,18 @@ main .mod_article > .hours {
       outline: none;
       &:hover {
         background-color: $brightest_teal;
+      }
+    }
+    .radio_container{
+      border: none;
+      .radio{
+        width: 15%;
+        height: 16px;
+        display: table-cell;
+        vertical-align: super;
+      }
+      label{
+        width: 30%;
       }
     }
     textarea {

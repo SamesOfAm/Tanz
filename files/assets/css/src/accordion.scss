@@ -1,5 +1,11 @@
 @import 'variables';
 
+.ce_accordionStart{
+  width: 90%;
+  max-width: 670px;
+}
+
+
 main .mod_article > .ce_accordion {
   text-align: left;
   margin: 10px auto;
