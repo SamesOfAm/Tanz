@@ -163,7 +163,7 @@
   }
 
   .logo {
-    width: 150px;
+    width: 125px;
   }
 
   header .inside .mod_article {
@@ -176,4 +176,9 @@
     font-size: 11px;
     transform: none;
   }
+
+  #header .inside .top-navigation {
+      margin: 24px auto 59px auto;
+  }
+
 }

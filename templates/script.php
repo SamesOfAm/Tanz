@@ -7,41 +7,12 @@
         }, 10);
     }
 </script>
-<!--<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/cookieconsent@3/build/cookieconsent.min.css" />
-<script src="https://cdn.jsdelivr.net/npm/cookieconsent@3/build/cookieconsent.min.js"></script>
-<script>
-    window.addEventListener("load", function(){
-        window.cookieconsent.initialise({
-            "palette": {
-                "popup": {
-                    "background": "#d0e5e9",
-                    "text": "#000"
-                },
-                "button": {
-                    "background": "#1b7d91",
-                    "text": "#fff"
-                }
-            },
-            "content": {
-                "message": "Diese Website verwendet Cookies, um die Nutzerfreundlichkeit zu erhöhen.",
-                "dismiss": "Verstanden",
-                "link": "Mehr erfahren",
-                "href": "{{link_url::9}}"
-            }
-        })});
-    if(window.location.hash) {
-        setTimeout(function(){
-            let accordion = document.querySelector(window.location.hash).firstElementChild;
-            accordion.click();
-        }, 500);
-    }
-</script>-->
 
 
 <script type="text/javascript">
     // Google Analytics Function for embedding tracking code
     // Google Analytics tracking ID
-    var $tracking_id = "UA-G-GP46KLFG1K";
+    var $tracking_id = "UA-10670644-66";
 
     // Google Analytics Cookie Domain & Path (needed for clearing cookies – have look in the inspector to get the values needed)
     var $tracking_cookie_domain = ".tanzen-jena.de";
