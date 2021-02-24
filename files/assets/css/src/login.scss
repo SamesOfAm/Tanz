@@ -1,0 +1,117 @@
+@import 'variables';
+
+body.loginBody{
+  .logo{
+    top: 0;
+  }
+
+
+  // _____Login
+  .login{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    button{
+      width: 400px;
+      height: 30px;
+      background-color: $dark_teal;
+      transition: 0.4s;
+      color: white;
+      border: none;
+    }
+    button:hover{
+      transition: 0.4s;
+      background-color: $middle_teal;
+    }
+  }
+
+  .widget{
+    display: flex;
+    width: 192px;
+    flex-wrap: wrap;
+    margin: 5px 0;
+    input{
+      width: 200px;
+      margin: 5px 0;
+    }
+  }
+  .ce_hyperlink{
+    display: flex;
+    justify-content: center;
+    a{
+      width: 200px;
+      text-align: left;
+      text-decoration: none;
+      color: $dark_teal;
+      transition: 0.4s;
+      margin: 13px;
+    }
+    a:hover{
+      transition: 0.4s;
+      color: $middle_teal;
+    }
+  }
+  .logout{
+    width: 120px;
+    display: flex;
+    justify-content: center;
+    right: 20px;
+    position: absolute;
+  }
+
+
+
+  // _____Registierung
+  .mod_registration{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  .formbody {
+    width: 200px;
+  }
+
+
+  // _____Main
+  #header .inside .mod_article #h1 h1 span:last-child{
+    width: unset;
+  }
+
+
+
+  .header_placeholder{
+    height: 100px;
+  }
+  .mod_customnav{
+    display: flex;
+    justify-content: center;
+    li{
+      list-style: none;
+        a{
+          text-decoration: none;
+          color: $dark_teal;
+          transition: 0.4s;
+          width: 350px;
+          display: block;
+          border-bottom: 1px solid $dark_teal;
+          margin: 0 0 10px 0;
+          padding: 0 0 13px 0;
+        }
+        a:hover{
+          transition: 0.4s;
+          color: $middle_teal;
+        }
+    }
+  }
+
+  @media screen and (max-width: 600px) {
+    .ce_hyperlink {
+      a {
+        width: unset;
+      }
+    }
+  }
+
+}
+
