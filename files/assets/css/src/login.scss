@@ -52,11 +52,33 @@ body.loginBody{
     }
   }
   .logout{
-    width: 120px;
+    width: 146px;
     display: flex;
     justify-content: center;
     right: 20px;
     position: absolute;
+  }
+
+  .backlink a{
+    width: unset !important;
+  }
+
+  .ce_youtube{
+    margin-top: 35px;
+    max-height: 558px;
+  }
+
+  #main .mod_article .ce_text{
+    border-top: none;
+  }
+
+  #main .mod_article .ce_text:first-child{
+    width: 90%;
+    max-width: 850px;
+    text-align: center;
+    margin: 25px auto;
+    border-top: 3px dotted #1b7d91;
+    overflow: visible;
   }
 
 
@@ -110,6 +132,12 @@ body.loginBody{
       a {
         width: unset;
       }
+    }
+    #main .mod_article .ce_text{
+      border-top: none !important;
+    }
+    .ce_youtube{
+      max-height: 235px;
     }
   }
 

@@ -403,7 +403,12 @@ main .mod_article > .ce_text table {
   margin-top: -100px;
   iframe {
     margin-top: 0;
+    border: none;
   }
+}
+
+.loginBody .ce_youtube{
+  margin: unset;
 }
 
 iframe {
