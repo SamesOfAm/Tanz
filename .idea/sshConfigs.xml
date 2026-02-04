@@ -2,7 +2,16 @@
 <project version="4">
   <component name="SshConfigs">
     <configs>
-      <sshConfig authType="PASSWORD" host="home527657875.1and1-data.host" id="cb88d153-47f7-4f82-8de0-f58b998e9ea8" port="22" customName="Host" nameFormat="CUSTOM" username="u77230593-kk">
+      <sshConfig authType="PASSWORD" host="home527657875.1and1-data.host" id="cb88d153-47f7-4f82-8de0-f58b998e9ea8" port="22" customName="Host" nameFormat="CUSTOM" username="u77230593-kk" useOpenSSHConfig="true">
+        <option name="customName" value="Host" />
+      </sshConfig>
+      <sshConfig authType="PASSWORD" connectionConfig="{&quot;serverAliveInterval&quot;:300}" host="home527657875.1and1-data.host" id="716f8a1f-79b8-401a-8ac9-6972bf0badd6" port="22" customName="Host" nameFormat="CUSTOM" username="u77230593-kk" useOpenSSHConfig="true">
+        <option name="customName" value="Host" />
+      </sshConfig>
+      <sshConfig authType="PASSWORD" connectionConfig="{&quot;serverAliveInterval&quot;:300}" host="home527657875.1and1-data.host" id="03b23fc5-d440-40b6-a348-2e6ef73c1631" port="22" customName="Host" nameFormat="CUSTOM" username="u77230593-kk" useOpenSSHConfig="true">
+        <option name="customName" value="Host" />
+      </sshConfig>
+      <sshConfig authType="PASSWORD" connectionConfig="{&quot;serverAliveInterval&quot;:300}" host="home527657875.1and1-data.host" id="fb5d2252-18ec-4512-87d3-373ce43076b2" port="22" customName="Host" nameFormat="CUSTOM" useOpenSSHConfig="true">
         <option name="customName" value="Host" />
       </sshConfig>
     </configs>

@@ -14,7 +14,7 @@ main .mod_article > .ce_accordion {
     padding: 12px 40px 12px 15px;
     text-transform: uppercase;
     color: white;
-    background-color: $bright_teal;
+    background-color: $dark_teal;
     font-size: 19px;
     cursor: pointer;
     outline: none;
@@ -26,7 +26,7 @@ main .mod_article > .ce_accordion {
       top: 10px;
       width: 30px;
       height: 30px;
-      background: url("../layout/arrow-down.svg") no-repeat;
+      background: url("../layout/arrow-down.svg") no-repeat 0/contain;
     }
     &:hover {
       background-color: $dark_teal;

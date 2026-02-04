@@ -1,5 +1,5 @@
 <div class="footer-logo">
-    <img src="files/assets/layout/logo.svg">
+    {{insert_article::9}}
 </div>
 <div class="footer-content">
     <div class="footer-left">
@@ -14,7 +14,7 @@
                 <img src="files/assets/layout/facebook-dark.svg">
             </a>
             <a class="footer-social-link" href="http://www.adtv.de/" target="_blank">
-                <img src="files/assets/layout/adtv-dark.png">
+                <img src="files/assets/layout/adtv-dark.svg">
             </a>
         </div>
         <div class="desktop-only">

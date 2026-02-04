@@ -1,7 +1,7 @@
 <div class="menu-content">
     <div class="menu-logo">
         <a href="{{link_url::2}}">
-            <img src="files/assets/layout/logo.svg">
+            <img src="files/assets/layout/fuehrbar-Wort-Bildmarke-Claim-RGB.svg">
         </a>
     </div>
     <div class="menu-close-wrapper">
@@ -13,7 +13,7 @@
     <div class="menu-social">
         <div class="menu-social-link">
             <a href="http://www.adtv.de/" target="_blank">
-                <img alt="" src="files/assets/layout/adtv-dark.png">
+                <img alt="" src="files/assets/layout/adtv-dark.svg">
             </a>
         </div>
         <div class="menu-social-link">

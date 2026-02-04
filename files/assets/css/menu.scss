@@ -22,6 +22,7 @@
   text-align: center;
   transform: translateX(-50%);
   transition: filter 250ms;
+  margin-bottom: 40px;
   img {
     width: 200px;
   }
@@ -32,7 +33,7 @@
 
 .menu-close-wrapper {
   float: right;
-  width: 40px;
+  width: 60px;
   a {
     transition: filter 250ms;
     &:hover {
