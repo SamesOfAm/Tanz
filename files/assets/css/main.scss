@@ -481,6 +481,18 @@ iframe {
     input,textarea {
       width: 100%;
     }
+    &.widget-checkbox {
+      span:not(.mandatory) {
+        display: block;
+        width: 100%;
+        label {
+          width: auto;
+        }
+        input {
+          width: auto;
+        }
+      }
+    }
   }
 
   .home main .mod_article {
